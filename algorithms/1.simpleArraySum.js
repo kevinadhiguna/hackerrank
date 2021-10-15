@@ -1,19 +1,19 @@
-'use strict';
+"use strict";
 
-const fs = require('fs');
+const fs = require("fs");
 
 process.stdin.resume();
-process.stdin.setEncoding('utf-8');
+process.stdin.setEncoding("utf-8");
 
-let inputString = '';
+let inputString = "";
 let currentLine = 0;
 
-process.stdin.on('data', function(inputStdin) {
+process.stdin.on("data", function (inputStdin) {
     inputString += inputStdin;
 });
 
-process.stdin.on('end', function() {
-    inputString = inputString.split('\n');
+process.stdin.on("end", function () {
+    inputString = inputString.split("\n");
 
     main();
 });
@@ -32,7 +32,7 @@ function readLine() {
 function simpleArraySum(ar) {
     // Write your code here
     let total = 0;
-    for (let i=0; i < ar.length; i++) {
+    for (let i = 0; i < ar.length; i++) {
         total += ar[i];
     }
     return total;
@@ -43,11 +43,14 @@ function main() {
 
     const arCount = parseInt(readLine().trim(), 10);
 
-    const ar = readLine().replace(/\s+$/g, '').split(' ').map(arTemp => parseInt(arTemp, 10));
+    const ar = readLine()
+        .replace(/\s+$/g, "")
+        .split(" ")
+        .map((arTemp) => parseInt(arTemp, 10));
 
     const result = simpleArraySum(ar);
 
-    ws.write(result + '\n');
+    ws.write(result + "\n");
 
     ws.end();
 }

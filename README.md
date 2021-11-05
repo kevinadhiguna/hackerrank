@@ -10,8 +10,14 @@
 
 ## 🧐 About this project
 
+```
 A collection of codes to solve Hackerrank challenges.
+```
 
+<br/>
+More JavaScript (not from HackerRank) : https://github.com/kevinadhiguna/jiyu/tree/master/javascript
+
+<br/>
 <br/>
 
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/hackerrank)](https://github.com/kevinadhiguna)

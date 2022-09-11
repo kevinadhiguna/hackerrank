@@ -20,4 +20,4 @@ More JavaScript (not from HackerRank) : https://github.com/kevinadhiguna/jiyu/tr
 <br/>
 <br/>
 
-[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/hackerrank)](https://github.com/kevinadhiguna)
+![Hello !](https://api.visitorbadge.io/api/VisitorHit?user=kevinadhiguna&repo=hackerrank&label=thanks%20for%20dropping%20in%20!&labelColor=%23000000&countColor=%23FFFFFF)
